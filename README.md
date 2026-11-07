@@ -12,7 +12,7 @@ Utiliza el sistema operativo de Linux. El flujo se ejecuta sobre una máquina vi
 ### Menciona al menos 3 acciones pre-construidas del Marketplace de GitHub Actions no mencionadas en este material. Excluye actions/checkout, actions/setup-python, actions/upload-artifact y aws-actions/configure-aws-credentials, aunque alguna solo aparezca como ejemplo conceptual. Describe qué hacen y para qué sirven.
 - *actions/cache:* Guarda dependencias (pip, npm, etc.) entre ejecuciones y las restaura. Acelera los workflows y ahorra minutos.
 - *actions/download-artifact:* Descarga artefactos generados por otro job o ejecución. Sirve para pasar archivos entre jobs.
-- *actions/labeler:*Asigna etiquetas automáticamente a los pull requests según los archivos que modifican. Organiza las revisiones.
+- *actions/labeler:* Asigna etiquetas automáticamente a los pull requests según los archivos que modifican. Organiza las revisiones.
 
 ### ¿Qué es un secreto en GitHub Actions y para qué se usa? ¿Cómo lo usarías en tu workflow?
 Un secreto es una variable cifrada que se guarda en GitHub, en el repositorio, el entorno o la organización. Sirve para almacenar información sensible que no debe aparecer en el código ni en el historial de Git
