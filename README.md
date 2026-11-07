@@ -21,3 +21,6 @@ Un secreto es una variable cifrada que se guarda en GitHub, en el repositorio, e
 Juan José:
 GitHub Actions lo veo muy útil, más que todo para la ejecución de ETL, ya que frecuentemente debo ejecutar procesos de extracción y procesamiento de información que muchas veces necesitan de mi monitoreo y dependen de una máquina encendida. Podría programar las ejecuciones para que corran en un horario específico o hacerlo a partir de un trigger, en el que se ejecute cada vez que envían un correo o se manda un documento a una carpeta.
 
+### Reflexiona sobre el uso de GitHub Actions en tu flujo de trabajo diario. ¿Qué tareas automatizarías? ¿Por qué?
+Julián:
+En mi trabajo diario vería GitHub Actions menos como un programador de tareas y más como un control de calidad automático. Lo usaría para revisar mis scripts SQL con un linter cada vez que hago un cambio y para ejecutar pruebas de calidad de datos (duplicados, nulos, totales que no cuadran) que me alerten antes de que un error llegue al dashboard.
