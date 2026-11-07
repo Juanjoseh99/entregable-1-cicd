@@ -24,3 +24,12 @@ GitHub Actions lo veo muy útil, más que todo para la ejecución de ETL, ya que
 ### Reflexiona sobre el uso de GitHub Actions en tu flujo de trabajo diario. ¿Qué tareas automatizarías? ¿Por qué?
 Julián:
 En mi trabajo diario vería GitHub Actions menos como un programador de tareas y más como un control de calidad automático. Lo usaría para revisar mis scripts SQL con un linter cada vez que hago un cambio y para ejecutar pruebas de calidad de datos (duplicados, nulos, totales que no cuadran) que me alerten antes de que un error llegue al dashboard.
+
+
+## Ejecución exitosa del workflow
+Run python mi_script.py
+Autor: JUAN JOSE HENAO | JULIAN GIRALDO
+Sistema Operativo: Linux 7.0.0-1019-azure
+Fecha y hora desde Python: 2026-11-07 14:41:18.691118
+
+https://github.com/Juanjoseh99/entregable-1-cicd/actions/runs/42382756703/job/128433662303
