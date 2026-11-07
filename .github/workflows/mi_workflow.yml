@@ -28,4 +28,4 @@ jobs:
           python-version: "3.13"
 
       - name: Ejecutar script Python
-        run: python main.py
+        run: python mi_script.py
